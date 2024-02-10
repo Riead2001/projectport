@@ -1,0 +1,130 @@
+
+* {
+    font-family: serif;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+body {
+    background-color: #28083D;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 1.5em;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 1.4em;
+    margin-top: 1rem;
+}
+
+
+
+
+
+  #logo {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    width: 550px;
+    height: 180px; /* Set the width of the image */
+  }
+
+  .title {
+    text-align: center; /* Center-align the h1 element */
+  }
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 1.5em;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 1.2em;
+    margin-top: 1rem;
+}
+
+
+
+.magic-container1 {
+    color: white; /* Set text color to white */
+    font-family: cursive; /* Apply a glamorous font */
+    background-color: #C8BF3E; /* Set background color to black */
+    padding: 20px; /* Add padding for better appearance */
+    border-radius: 10px; /* Add border radius for a rounded appearance */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.magic-container2 {
+    color: white; /* Set text color to white */
+    font-family: cursive; /* Apply a glamorous font */
+    background-color:blue; /* Set background color to black */
+    padding: 20px; /* Add padding for better appearance */
+    border-radius: 10px; /* Add border radius for a rounded appearance */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.magic-container3 {
+    color: white; /* Set text color to white */
+    font-family: cursive; /* Apply a glamorous font */
+    background-color:red; /* Set background color to black */
+    padding: 20px; /* Add padding for better appearance */
+    border-radius: 10px; /* Add border radius for a rounded appearance */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.magic-container4{
+    color: white; /* Set text color to white */
+    font-family: cursive; /* Apply a glamorous font */
+    background-color:grey; /* Set background color to black */
+    padding: 20px; /* Add padding for better appearance */
+    border-radius: 10px; /* Add border radius for a rounded appearance */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.magic-body {
+    margin: 1rem;
+    background-color: white;
+    padding: 1rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width:576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1180px;
+    }
+}
